@@ -1,0 +1,11 @@
+{
+    "name": "hexlet/code",
+    "description": "PHP project level 1 in Hexlet.io",
+    "authors": [
+        {
+            "name": "Posashkov AS",
+            "email": "alexpos@list.ru"
+        }
+    ],
+    "require": {}
+}
