@@ -7,5 +7,9 @@
             "email": "alexpos@list.ru"
         }
     ],
+    "license": "MIT",
+    "bin": [
+       "bin/brain-games"
+    ],
     "require": {}
 }
