@@ -1,0 +1,12 @@
+name: my-workflow
+on: push
+jobs:
+  job-on-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install
+        # Install project
+        run: make install
+      - name: Run linter
+        # Run Linter
+        run: make lint
