@@ -22,7 +22,7 @@ function generateQuestionsArray($countNumbers = 3)
     $returnArray = [];
 
     for ($i = 0; $i < $countNumbers; $i++) {
-        $numbersArray = [rand(0, 100), rand(0, 100)];
+        $numbersArray = [rand(1, 100), rand(1, 100)];
         rsort($numbersArray);
         [$firstNumber, $secondNumber] = $numbersArray;
 
