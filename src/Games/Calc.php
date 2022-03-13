@@ -20,7 +20,7 @@ function startGame()
 function generateQuestionsArray($countNumbers = 3)
 {
     $operationArray = ['+', '-', '*'];
-    
+
     $returnArray = [];
 
     for ($i = 0; $i < $countNumbers; $i++) {
@@ -28,7 +28,7 @@ function generateQuestionsArray($countNumbers = 3)
         $secondOperand = rand(0, 100);
         $mathOperation = $operationArray[array_rand($operationArray)];
         $mathResult = 0;
-        
+
         switch ($mathOperation) {
             case '+':
                 $mathResult = $firstOperand + $secondOperand;

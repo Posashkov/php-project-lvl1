@@ -14,7 +14,7 @@ function greetings($gameGreetings = '')
     if ($gameGreetings != '') {
         line($gameGreetings);
     }
- 
+
     return $name;
 }
 
