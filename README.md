@@ -8,3 +8,6 @@
 
 Установка проекта и запуск игры brain-even:
 https://asciinema.org/a/Ir97xsKBzcy1uPf1hyho1vaQg
+
+Установка проекта и запуск игры brain-calc:
+https://asciinema.org/a/PAeVXlwy9ODwXrV6s8MYs0n2o
