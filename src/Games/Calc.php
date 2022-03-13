@@ -17,7 +17,7 @@ function startGame()
     goodbye($hasErrors, $name);
 }
 
-function generateQuestionsArray($countNumbers = 3)
+function generateQuestionsArray(int $countNumbers = 3)
 {
     $operationArray = ['+', '-', '*'];
 
