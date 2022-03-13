@@ -5,7 +5,7 @@ namespace Brain\Games\Engine;
 use function cli\line;
 use function cli\prompt;
 
-function greetings($gameGreetings = '')
+function greetings(string $gameGreetings = '')
 {
     line('Welcome to the Brain Games!');
     $name = prompt('May I have your name?', false, ' ');
@@ -18,7 +18,7 @@ function greetings($gameGreetings = '')
     return $name;
 }
 
-function goodbye($hasErrors, $name)
+function goodbye(bool $hasErrors, string $name)
 {
     if ($hasErrors) {
         line("Let's try again, {$name}!");
@@ -27,7 +27,7 @@ function goodbye($hasErrors, $name)
     }
 }
 
-function askQuestions($questionsAndAnswersArray)
+function askQuestions(array $questionsAndAnswersArray)
 {
     $hasErrors = false;
     foreach ($questionsAndAnswersArray as [$question, $answer]) {
@@ -41,13 +41,13 @@ function askQuestions($questionsAndAnswersArray)
     return $hasErrors;
 }
 
-function getUserAnswer($question)
+function getUserAnswer(string $question)
 {
     line('Question: ' . $question);
     return prompt('Your answer');
 }
 
-function checkAnswer($answer, $userAnswer)
+function checkAnswer(string $answer, string $userAnswer)
 {
     if ($answer == $userAnswer) {
         line('Correct!');
