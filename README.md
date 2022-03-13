@@ -17,3 +17,6 @@ https://asciinema.org/a/OT568WEA6p4X9cBltc1NTh5AT
 
 Установка проекта и запуск игры brain-progression:
 https://asciinema.org/a/9UaoCN0lLDeUbO1ZeldnWPAmM
+
+Установка проекта и запуск игры brain-prime:
+https://asciinema.org/a/pCZ27le9SGIlu9xWfFHn4gEOn
