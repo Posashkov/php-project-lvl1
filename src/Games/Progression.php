@@ -24,7 +24,7 @@ function generateQuestionsArray($countNumbers = 3)
     for ($i = 0; $i < $countNumbers; $i++) {
         $progressionStep = rand(1, 10);
         $numbersArray = range(1, $progressionStep * 10, $progressionStep);
-        $hiddenNumberIndex = rand(1, 10);
+        $hiddenNumberIndex = rand(0, 9);
         $hiddenNumber = $numbersArray[$hiddenNumberIndex];
         $numbersArray[$hiddenNumberIndex] = '..';
 
